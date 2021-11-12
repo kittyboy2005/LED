@@ -88,7 +88,7 @@ void led_pattern(byte type)  //LED PATTERN MAKER
             led1.Fade(1, 20);      // Fade: fading amount= 1, refresh rate=20ms
             break;
             
-    case 4: //long fade effect
+    case 4: //Power off
             led1.Power(0);         // Power off
             break;        
   }
